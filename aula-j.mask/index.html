@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Máscara de Inputs</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<div class="main">
+  <label>Data</label>
+  <input type="text" class="i_data" maxlength="10" placeholder="00/00/0000">
+  
+  <label>Hora</label>
+  <input type="text" class="i_hora" maxlength="5" placeholder="00:00">
+  
+  <label>CEP</label>
+  <input type="text" class="i_cep" maxlength="9" placeholder="00000-000">
+  
+  <label>Telefone</label>
+  <input type="text" class="i_telefone" maxlength="14" placeholder="(00)00000-0000">
+  
+  <label>CPF</label>
+  <input type="text" class="i_cpf" maxlength="14" placeholder="000.000.000-00">
+  
+  <label>RG</label>
+  <input type="text" class="i_rg" maxlength="12" placeholder="000.000.000-0">
+  
+  <button id="enviarBtn">Enviar</button>
+</div>
+
+<script src="js/jquery-3.7.1.js"></script>
+<script src="js/jquery.mask.js"></script>
+<script src="js/action.js"></script>
+
+</body>
+</html>
