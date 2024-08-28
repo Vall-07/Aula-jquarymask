@@ -1,6 +1,6 @@
 # Projeto de Podcast: Orientações Pós-Ensino Médio
 
-Alunos: Valmir F.S. Rocha  
+Aluno: Valmir F.S. Rocha  
 Curso: 3° Ano de Informática Continuidade  
 Data:  28/08/2024
 
