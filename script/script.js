@@ -6,7 +6,7 @@ const bodyElement = document.body;
 // Definir os estilos dos temas
 const darkThemeStyles = {
     '--background-color': '#1a1a1a',
-    '--text-color': '#333',
+    '--text-color': '#fff',
     '--card-background': '#f0f0f0',
     '--primary-color': '#ff6f61',
     '--primary-color-hover': '#e64a19'
