@@ -3,7 +3,6 @@ console.log('Página do podcast carregada com sucesso.');
 const toggleThemeButton = document.getElementById('toggle-theme');
 const bodyElement = document.body;
 
-// Definir os estilos dos temas
 const darkThemeStyles = {
     '--background-color': '#1a1a1a',
     '--text-color': '#fff',
@@ -20,7 +19,6 @@ const lightThemeStyles = {
     '--primary-color-hover': '#5e0b8c'
 };
 
-// Alternar tema claro/escuro
 toggleThemeButton.addEventListener('click', () => {
     const currentTheme = bodyElement.dataset.theme;
     if (currentTheme === 'dark') {
@@ -40,7 +38,6 @@ function applyTheme(styles) {
     }
 }
 
-// Verificar se o JavaScript está funcionando corretamente no celular
 window.onload = function() {
     console.log('Tema atual:', bodyElement.dataset.theme || 'light');
 };
